@@ -1,0 +1,50 @@
+We have ti name variable meaning fully.
+
+1.  Variables can start from an alphabet or underscore _ and $ 
+2.  Special characters except _ and $  are not allowed.
+3.  Commas or blanks are not allowed.
+4.  Some particular keywords are not allowed.
+
+
+auto    double    int    break    extern    enum    unsigned    while  
+case    sizeof    for    const    static    long    continue    float
+else    signed    do     short    switch    char    volatile    default
+goto    struct    if     union    return    void    register    typedef
+
+
+
+VALID NAME
+a-z, A-Z, _, $
+
+Hi 
+yes
+_you
+$two 
+INT
+_int
+1sp        invalid
+
+INVALID
+any keywords
+starting with number
+          
+
+BASICSALARY             -- valid
+#MEAN                   -- invalid
+population in 2006      -- invalid
+FLOAT                   -- valid
+team'svictory           -- invalid
+_basic                  -- valid
+group.                  -- invalid
+over time               -- invalid
+hELLO                   -- valid
+Ptot#3                  -- invalid
+basic-hra               -- invalid
+422                     -- invalid
+mindovermatter          -- valid
+.queue                  -- invalid
+2015_DDay               -- invalid
+                  
+                    
+
+
