@@ -1,0 +1,43 @@
+TYPES OF OPERATOR\
+
+Arithmetic Operator     -- done
+Relational Operator     -- in this lecture
+Logical Operator        -- will lokk into basic and 
+                           Will cover in IF-ELSE
+Assignment Operator     -- in this lecture
+Bitwise Operator        -- in bit manipulation
+
+
+
+
+RELATION OPERATOR   
+-- comparison of same data type
+-- result is either 0 or 1
+
+==                  is equals to 
+!=                  not equals to 
+>                   greater than
+<                   less than
+>=                  greater than equals to
+<=                  less than equals to
+
+
+
+== and = is very different
+== compare two numbers
+= assignment operator, assigns some value to a variable
+
+
+
+ASSIGNMENT OPERATOR
+
+=               assign value
++=              x+=8 => x =x+8
+-=              x-=8 => x =x-8
+*=              x*=8 => x =x*8
+/=              x/=8 => x =x/8
+
+x+=8 => x =x+8 both are same but =+ is efficientbecause it requires
+less memory and calculations.
+
+

@@ -1,0 +1,7 @@
+Agenda for this lecture
+
+1. Taking Input
+2. Operator                     -- Arithmetic is done
+3. Typecasting                  -- Important
+4. Heirarchy of operation       -- like BODMAS
+5. Char and ASCII               -- new data type
