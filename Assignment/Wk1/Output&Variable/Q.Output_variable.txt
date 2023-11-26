@@ -13,10 +13,10 @@ Ques 2: What is the output of this program?
 	    int a=4;                // variable a is assigned with int 4 
         int b=5;                // variable b with 5
         
-        a++;b--;                // Now a = 5, b = 5 
+        a++;b--;                // Now a = 5, b = 4 
 
     // First 'a' will be incremented to 6 and then printed but for 'b' it will be
-    // printed first then decremnted to 4
+    // printed first then decrement to 3
         cout<<++a<<” “<<b–-;    
 
     }
