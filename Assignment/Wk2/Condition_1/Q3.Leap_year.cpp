@@ -7,6 +7,7 @@ Input 2: 2003
 Output: no
 */
 
+
 /*                                      CONCEPT
 
 NOTE -- just checking if year is divisible by 4 is not enough as
@@ -67,3 +68,4 @@ int main()
 
     return 0;
 }
+
