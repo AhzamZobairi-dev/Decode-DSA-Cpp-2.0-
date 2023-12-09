@@ -1,0 +1,10 @@
+We are going to discuss Control Statements
+
+-- IF ELSE
+-- TERNARY OPERATOR
+-- SWITCH           -- covered in next lecture
+
+
+
+NEW KEYWORDS USED
+
