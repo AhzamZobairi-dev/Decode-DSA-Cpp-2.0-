@@ -1,0 +1,11 @@
+Lecture-4  Conditon 2  week2
+
+We will check 
+
+1. if-else          -- Already covered
+
+2. Ternary operator
+3. Switch statement 
+
+
+Both 2 & 3 are optional as we can solve problem without the as well
