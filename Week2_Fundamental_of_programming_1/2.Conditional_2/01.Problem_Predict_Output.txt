@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+using namespace std;
+
+int main() 
+{
+    int x =10; int y =20;           // x= 10 and y = 20
+    if ( x== y);                    // false but if condition ends with ;
+        cout << x<< " " << y ;      // Not Part of if-condition. sO it will be excecuted 
+    
+    return 0;
+}
+
+
+OUTPUT :-       
+
+10 20
+
+int main() 
+{
+    int x =3 ; int y =5;            // x=3 and y =5
+    if ( x== 3)                     // true 
+        cout << x<< endl ;          // gets excecuted
+    else ;                          // skipped but else-condition ends here as ;
+        cout << y << endl ;         // not part of else, get executed
+    return 0;
+}
+
+OUTPUT :-
+3
+5
+
+
