@@ -1,0 +1,10 @@
+We will discuss loop and its application in the next 4 lecture
+
+LOOP what and why?
+
+In general, the things we needed to do repetatively or can be some 
+thinks needed to be done that are connected together by some pattern
+
+for ex -
+
+-- printing "Good Morning" 10 times
