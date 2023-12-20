@@ -8,3 +8,10 @@ thinks needed to be done that are connected together by some pattern
 for ex -
 
 -- printing "Good Morning" 10 times
+
+Typed of loop
+1. for loop             -- will discuss in Loop1
+2. while loop           -- will aslo discuss in Loop1
+3. do-while loop
+
+4. for-each loop -- used to iterate through conatiners -- discuss later
