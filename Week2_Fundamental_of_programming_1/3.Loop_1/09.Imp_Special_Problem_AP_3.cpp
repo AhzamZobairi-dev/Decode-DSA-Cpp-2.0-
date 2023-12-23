@@ -84,5 +84,15 @@ cout <<  endl << "Method 5" << endl ;
     }
     cout << "Last Positive term is : " << i -1 << endl; // loop is iterated for i =34 and when loop exited i got incremented 
 
+
+//METHOD 7 -- We can condense Method 2 like below
+    cout <<  endl << "Method 7" << endl ;
+    i =1;
+    for(a= 100; a>0 ; a -=3 )            
+    {
+        cout << a << endl;
+        i++;
+    }
+    cout << "Last Positive term is : " << i -1 << endl; 
     return 0;
 }
