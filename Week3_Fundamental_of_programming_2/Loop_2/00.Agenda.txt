@@ -1,0 +1,5 @@
+In this Lecture we will discuss some new keywords
+and will do lot of problems
+
+1. break        -- to break out of loop without condition
+2. continue     -- 
