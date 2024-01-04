@@ -1,0 +1,88 @@
+We will be discussing nested loops in this lecture and their use cases.
+
+We will be printing number of different pattern to practice the nested loops.
+
+-- Solid Rectangle and Square
+
+    * * * * *           * * * * *
+    * * * * *           * * * * *        
+    * * * * *   (or)    * * * * *
+    * * * * *           * * * * *
+    * * * * *           * * * * * 
+    * * * * *
+
+-- Number Rectangle and square
+
+        1 2 3 4 
+        1 2 3 4
+        1 2 3 4
+        1 2 3 4
+
+-- Star Triangle and Reverse Triangle
+
+    *               ****
+    **               ***
+    ***               **
+    ****               *
+    *****
+
+-- Number Triangle and Reverse
+
+    1                       1 2 3 4
+    1 2                     1 2 3 
+    1 2 3                   1 2
+    1 2 3 4                 1
+
+-- Odd Number Triangle
+
+    1  
+    1 3 
+    1 3 5 
+    1 3 5 7
+
+-- Alphabet Square
+
+    A B C D
+    A B C D
+    A B C D
+    A B C D
+
+-- Star Plus
+
+        *
+        *
+    * * * * *
+        *
+        *
+
+-- Floyds triangle
+
+    1
+    2 3
+    4 5 6
+    7 8 9 10
+
+-- Binary Triangle
+
+    1
+    0 1
+    1 0 1
+    0 1 0 1
+
+-- Flipped Star Triangle
+
+            *
+          * *
+        * * *
+      * * * *
+    * * * * *
+
+
+-- Flipped Number Triangle
+
+          1
+        1 2
+      1 2 3
+    1 2 3 4
+
+
