@@ -1,4 +1,4 @@
-/*
+/*      Alphabet Pyramid
 Input: n = 4
 Output:
 
@@ -6,6 +6,8 @@ Output:
             B A B
           C B A B C
         D C B A B C D
+        
+HINT : Week3 -- Lect:8 Pattern Printing 2 -- problem 04 -- Pattern Star Palindrome 
 */
 
 #include <iostream>
