@@ -1,4 +1,5 @@
-/*
+/*      Number bridge variation
+
         Input: n = 4
         Output:
         
@@ -7,6 +8,7 @@
         1 2       2 1
         1           1
 
+HINT : Week3 -- Lect:8 Pattern Printing 2 -- problem 07 and 08 -- Star bridge Approach 
 */
 
 
