@@ -1,4 +1,4 @@
-/*      SLANT SOLID SQUARE  -- RHOMBUS
+/*  SLANT SOLID SQUARE  -- RHOMBUS
 
             * * * * *
           * * * * *
