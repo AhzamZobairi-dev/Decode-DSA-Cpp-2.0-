@@ -1,3 +1,7 @@
+/* This is a basic function call being imitated where we are observing 
+   how function is being called from main function
+*/
+
 #include <iostream>
 using namespace std;
 
