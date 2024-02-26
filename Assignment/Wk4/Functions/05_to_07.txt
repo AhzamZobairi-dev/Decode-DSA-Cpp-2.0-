@@ -1,0 +1,41 @@
+Q5: The minimum number of functions present in any C++ program is:
+    1) 0
+    2) 1
+    3) 2
+    4) Infinite
+
+    Ans -- There must have to be minumum one function i.e main() needed to be present in the c++ code.
+       Even if the main() function is empty it is required as it is entry point of C++ program .
+
+
+
+Q6: State True and False:
+
+    1) A function may be called more than once from any other function
+    -- True, function can be call multiple times from multiple functions
+
+
+    2) It is necessary for a function to return some value.
+    -- False, Void Function do not return any value. So it is not necessary.
+
+Q7: Explore:
+Can the same function name be used for different functions without any conflict?
+
+    -- We cannot define two fucntion with same return type, name, and parameters but 
+       While exploring this I can across FUCNTION OVERLOADING,  Where we can overload a 
+       function with same name and return type with different parameters(i.e different 
+       numbers of parameters or same number of parameters with different data type)
+
+       For Ex:
+       void Print(int num) {}
+       void Print(double num) {}
+    From above -- Same return type, function name but different data type in parameters
+
+       void Print(double num) {}
+       void Print(int num1, double num2) {}
+       In above 2 function -- Same return type, function name but different number of parameters
+
+    But we cannot declare like this 
+       void Print(int num) {}
+       int Print(int num) {}
+    Error: ambiguating new declaration of 'int Print(int)'
