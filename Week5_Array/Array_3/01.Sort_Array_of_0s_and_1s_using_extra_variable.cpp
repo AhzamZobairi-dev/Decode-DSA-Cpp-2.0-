@@ -16,7 +16,7 @@ void op(vector<int> v)
 void sort_0_1(vector<int> &v)
 {
   int num_0=0, num_1=0, n=v.size();
-  
+
   for(int i=0; i<n; i++)
   {
     if(v[i] == 0)   num_0++;
@@ -42,7 +42,7 @@ int main()
     cin >> v[i];
   
   sort_0_1(v);
-  
   op(v);
-  
+
+  return 0;
 }

@@ -4,7 +4,6 @@
 #include <vector>
 using namespace std;
 
-
 void manualSort(vector<int> &v)
 {
    int i=0, j=v.size()-1;

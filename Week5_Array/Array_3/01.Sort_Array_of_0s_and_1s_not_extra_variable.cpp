@@ -1,4 +1,4 @@
-// Method 2 -- without using extra spaces  -- TWO POINTER METHOD
+// Method 2 -- without using extra spaces  -- TWO POINTER METHOD 
 
 #include <iostream>
 #include <vector>
@@ -71,4 +71,5 @@ int main()
     two_ptr_for(arr);   // pass by refrence -- changes the arr after function call
     op(arr);            // print arr after function call ends.
     
+    return 0;
 }
