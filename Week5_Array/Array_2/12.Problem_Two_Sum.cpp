@@ -19,7 +19,7 @@ using namespace std;
    The number of times x occurs in the vector
    Issue -- it will return the number with repetition
             for e.g (a,b) and (b,a) both will be printed
-*/
+
 int total_brute(vector<int> &v, int x)
 {
     int count = 0;
@@ -36,13 +36,13 @@ int total_brute(vector<int> &v, int x)
     return count;
 }
 
-/*  Function -- opt_brute
+  Function -- opt_brute
     Parameters: 1. A vector of integers
                 2. Int x i.e target
     Return: None
 
 */
-*/
+
 void total_brute(vector<int> values,int target)
 {
     for (int i = 0; i < values.size(); i++)
