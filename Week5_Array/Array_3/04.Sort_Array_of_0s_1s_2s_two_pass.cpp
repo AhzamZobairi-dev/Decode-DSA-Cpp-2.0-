@@ -1,4 +1,4 @@
-//          Method 1 -- Leet Code -75 Sorting colour 
+//          Method 1 -- Leet Code -75 Sorting colour -- Brute Force
 
 #include <iostream>
 #include <vector>
