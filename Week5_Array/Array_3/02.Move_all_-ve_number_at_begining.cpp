@@ -32,8 +32,7 @@ int main()
         else if(v[j]>0) j--;
         else if(v[j]<=0 && v[i]>=0 ) // <= & >= is for including 0 
         {
-// we cannot swap without extra variable for safety when dealing with
-// one element array
+// we cannot swap without extra variable for safety when dealing with one element array
             int temp= v[i];
             v[i]=v[j];
             v[j] = temp;

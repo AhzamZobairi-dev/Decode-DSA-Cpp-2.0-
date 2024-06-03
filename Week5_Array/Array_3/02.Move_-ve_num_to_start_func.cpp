@@ -34,6 +34,7 @@ int main()
     int n;
     cout << "Enter the number of elements in array : "; 
     cin >> n;
+    
     vector<int> v(n);
     cout << "Enter the array : "; 
     for(int i=0; i<n; i++)

@@ -66,9 +66,9 @@ int main()
       
     op(arr);
     two_ptr_while(arr);   // pass by value -- no change in arr after function call
-                        // thats why we have print arr in side two_ptr_while function
-    two_ptr_for(arr);   // pass by refrence -- changes the arr after function call
-    op(arr);            // print arr after function call ends.
+                          // thats why we have print arr in side two_ptr_while function
+    two_ptr_for(arr);     // pass by refrence -- changes the arr after function call
+    op(arr);              // print arr after function call ends.
     
     return 0;
 }

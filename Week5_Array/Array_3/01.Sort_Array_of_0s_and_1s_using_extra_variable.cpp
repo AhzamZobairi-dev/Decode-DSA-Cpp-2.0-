@@ -1,4 +1,4 @@
-// Method 1 -- using extra spcae
+// Method 1 -- using extra space
 
 #include <iostream>
 #include <vector>
