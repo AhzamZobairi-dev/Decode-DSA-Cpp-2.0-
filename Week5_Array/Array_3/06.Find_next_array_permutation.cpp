@@ -23,7 +23,7 @@ void nextPermutation(vector<int>& v)
 {
     int idx = -1;
     int n = v.size();
-    for(int i = n-2; i >= 0; i--)
+    for(int i = n-2; i >= 0; i--)       // finding the pivot
     {
         if(v[i]<v[i+1])
         {
@@ -32,13 +32,13 @@ void nextPermutation(vector<int>& v)
         }
     }
 
-    if(idx == -1 )
+    if(idx == -1 )  // if pivot is not found
     {
         reverse(v, 0, n-1);
         return;
     }
 
-    reverse(v, idx+1, n-1);
+    reverse(v, idx+1, n-1);     // calling reverse that will reverse the elements
 
     int j =-1;
     for(int i = idx+1; i < n; i++)
