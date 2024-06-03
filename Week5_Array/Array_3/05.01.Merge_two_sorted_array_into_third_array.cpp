@@ -73,7 +73,7 @@ int main()
 
     vector<int> arr2(n2);
     cout << "Enter the second array : "; 
-    
+
     for(int i=0; i<n2; i++)
         cin >> arr2[i];
 

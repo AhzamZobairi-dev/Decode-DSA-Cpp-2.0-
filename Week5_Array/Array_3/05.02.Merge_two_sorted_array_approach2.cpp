@@ -78,8 +78,7 @@ int main()
 
     
     op(arr1);  
-    op(arr2);
-    
+    op(arr2); 
     vector<int> arr = merge(arr1,arr2);
     
     op(arr);

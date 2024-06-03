@@ -84,7 +84,6 @@ int main()
 
     op(v1);
     op(v2);
-
     vector<int> v = merge(v1, v2);
     op(v);
     return 0;
