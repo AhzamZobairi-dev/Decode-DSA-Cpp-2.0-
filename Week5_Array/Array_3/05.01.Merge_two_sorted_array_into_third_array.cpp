@@ -12,9 +12,8 @@ using namespace std;
 void op(vector<int> v)
 {
   for(int i=0; i<v.size(); i++)
-    {
       cout << v[i] << " ";
-    }
+
   cout << endl;
 }
 
@@ -61,27 +60,31 @@ int main()
     int n1;
     cout << "Enter size of first array : ";
     cin >> n1;
+
     vector<int> arr1(n1);
     cout << "Enter the first array : ";
+
     for(int i=0; i<n1; i++)
-    {
         cin >> arr1[i];
-    }
 
     int n2;
     cout << "Enter size of second array : ";
     cin >> n2;
+
     vector<int> arr2(n2);
     cout << "Enter the second array : "; 
+    
     for(int i=0; i<n2; i++)
-    {
         cin >> arr2[i];
-    }
+
     vector<int> arr(n1+n2);
+
     op(arr1);  
     op(arr2);
     merge(arr1,arr2,arr);
     op(arr);
+
+    return 0;
 }
 
 /*

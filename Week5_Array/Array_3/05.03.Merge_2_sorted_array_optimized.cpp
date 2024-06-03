@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 void op(vector<int> v) 
@@ -15,14 +14,15 @@ void op(vector<int> v)
 
 vector<int> merge(vector<int> num1, vector<int> num2)
 {
+    cout << "Ahzam: " << __LINE__ << endl;
     int i = num1.size()-1;
     int j = num2.size()-1;
 
 // incorrect initialization till we add 2 i.e v(i+j+2) or we can declare v directly with
 // vector<int> v(num1.size() + num2.size);    
-    vector<int> v(num1.size() + num2.size);     
-    int k = i+j-1;
-
+    vector<int> v(num1.size() + num2.size());     
+    int k = i+j+1;
+    
     while(i>=0 && j>=0)
     {
         if(num1[i] < num2[j])
