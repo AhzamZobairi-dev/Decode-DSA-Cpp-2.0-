@@ -7,9 +7,8 @@ using namespace std;
 void op(vector<int> v)
 {
     for(int i=0; i<v.size(); i++)
-        {
         cout << v[i] << " ";
-        }
+
     cout << endl;
 }
 
@@ -42,14 +41,13 @@ int main()
     int n;
     cout << "Enter the number of elements in array : "; 
     cin >> n;
+
     vector<int> v(n);
     cout << "Enter the array : "; 
     for(int i=0; i<n; i++)
-    {
         cin >> v[i];
-    }
-    op(v);
-    
+
+    op(v);    
     sort_dutch(v);
     op(v);
 
