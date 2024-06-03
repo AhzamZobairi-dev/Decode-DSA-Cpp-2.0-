@@ -47,7 +47,7 @@ void nextPermutation(vector<int>& v)
             j = i;
     }
 
-    swap(v[idx], v[j]);
+    swap(v[idx], v[j]);     // inbuilt function
     
 }
 
