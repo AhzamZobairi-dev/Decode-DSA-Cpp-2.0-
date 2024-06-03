@@ -1,8 +1,9 @@
-// count the number of triplet
+/*      Count the number of triplet
+
+*/ 
 
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 int triplet_count(vector<int> v, int target)
@@ -21,6 +22,7 @@ int triplet_count(vector<int> v, int target)
     }
     return count;
 }
+
 int main()
 {
     int n;
@@ -37,4 +39,6 @@ int main()
     
     int count = triplet_count(ele, target);
     cout << count ;
+
+    return 0;
 }

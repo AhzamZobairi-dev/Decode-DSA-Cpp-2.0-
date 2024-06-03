@@ -1,4 +1,7 @@
-// Find the factorial of a large number.
+/*    Find the factorial of a large number.
+
+  -- the implementation is done using array, we can use vector interchangably
+*/ 
 
 #include <iostream>
 using namespace std;
@@ -41,5 +44,7 @@ int main()
   {
     cout << res[i];
   }
+
+  return 0;
 }  
   
