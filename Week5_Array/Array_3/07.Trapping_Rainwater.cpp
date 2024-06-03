@@ -51,9 +51,7 @@ int main()
     vector<int> arr(n);
     cout << "Enter the elements : ";
     for (int i = 0; i < n; i++)
-    {
         cin >> arr[i];
-    }
 
     int water = trap(arr);
     cout << "The amount of water trapped is : " << water << endl;
