@@ -1,4 +1,4 @@
-//          Method 2 -- Leet Code -75 Sorting colour -- optimized
+//          Method 2 -- LEETCODE 75. Sort Colors -- optimized
 
 #include <iostream>
 #include <vector>
