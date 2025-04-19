@@ -1,4 +1,4 @@
-/*                    Leect Code -- 31. Next Permutation            -- Medium
+/*                    LEETCODE 31. Next Permutation            -- Medium
 
     https://leetcode.com/problems/next-permutation/description/
 */          

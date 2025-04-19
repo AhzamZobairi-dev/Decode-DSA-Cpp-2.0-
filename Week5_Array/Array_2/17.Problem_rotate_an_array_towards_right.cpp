@@ -1,4 +1,4 @@
-//              LEET CODE 189
+//              LEETCODE 189. Rotate Array
 //  ROTATE THE ARRAY TOWARDS RIGHT BY K STEPS
 
 #include <iostream>

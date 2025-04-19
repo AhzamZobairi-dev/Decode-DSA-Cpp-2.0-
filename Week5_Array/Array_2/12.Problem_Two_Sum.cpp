@@ -1,4 +1,4 @@
-//                               LEET CODE 1  -- BRUTE FORCE
+//                               LEETCODE 1. Two Sum  -- BRUTE FORCE
 /* Find the doublet in the array whose sum is equal to the given
    value x
 
