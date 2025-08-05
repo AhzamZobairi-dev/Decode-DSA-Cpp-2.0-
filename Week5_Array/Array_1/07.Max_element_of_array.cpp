@@ -16,7 +16,7 @@ int main()
         cin>>a[i];
     }
 
-    int maximum = INT_MIN;8
+    int maximum = INT_MIN;
     for(int i=0; i<n; i++)
     {
         if(maximum < a[i])  maximum=a[i];
