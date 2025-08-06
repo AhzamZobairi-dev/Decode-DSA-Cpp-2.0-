@@ -20,12 +20,12 @@ int main()
     bool flag = false;
     bool *ptr1 = &flag;
     
-    cout << &flag << endl;
+    cout << &flag << endl;  // 0x61ff03
     cout << ptr1 << endl;    // 0x61ff03
     cout << &ptr1 << endl;  // 
     
     ptr1 = ptr1 + 1;
-    cout << &ptr1 << endl;   // 0x61ff04
+    cout << ptr1 << endl;   // 0x61ff04
     
     return 0;
 }
