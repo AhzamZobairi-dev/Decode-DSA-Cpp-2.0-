@@ -43,7 +43,7 @@ int main()
     int *ptr1 =&firstDigit;
     int *ptr2 =&lastDigit;
 
-    find(n, ptr1, ptr2);
+    find(n, ptr1, ptr2);    // Bit lengthy as we sent 1 number and 2 pointer to function but doesnt changes number
     cout << *ptr1 << " " << *ptr2 << endl;
 
 
