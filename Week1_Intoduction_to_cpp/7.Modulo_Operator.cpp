@@ -61,13 +61,13 @@ When,
 
 // When, 
 //  4.      a % (-b) = a % b
-    cout << 10 % (-3) <<endl ;      // == 10%3 => o/p - 1
+    cout <<"case 1: " << 10 % (-3) <<endl ;      // == 10%3 => o/p -> 1
 
 //  5.      (-a) % b = - (a % b)
-    cout << (-10) % 3 <<endl ;
+    cout << "case 2: "  << (-10) % 3 <<endl ;   // == - (10%3) => o/p -> -1
 
-//  6.      (-a) % (-b) = (-a) % b = - (a % b)
-    cout << (-10) % (-3) <<endl ;      
+//  6.      (-a) % (-b) = (-a) % b = - (a % b)  // same as case 2
+    cout << "case 3: "  << (-10) % (-3) <<endl ;
 
     return 0;
 }
